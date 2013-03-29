@@ -25,7 +25,7 @@ rpm-build
 
 rpmbuild --target=noarch --define "_projectdir `pwd`" -v -bb install/SPEC/ec2-api-tools.spec  
 
-3. RPM will be built and will be located ~/rpmbuild/RPMS/noarch/ec2-api-tools-1.6.7-1.noarch.rpm
+RPM will be built and will be located ~/rpmbuild/RPMS/noarch/ec2-api-tools-1.6.7-1.noarch.rpm
 
 ## Information
 If you are just looking for the rpm, check out the rpm folder in this project 
