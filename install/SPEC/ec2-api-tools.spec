@@ -3,7 +3,7 @@
 %define project_version 1.6.7.1 
 %define _binaries_in_noarch_packages_terminate_build   0
 Name: ec2-api-tools 
-Version: 1.6.7 
+Version: 1.6.9 
 Release: 1 
 Summary: Packaged version of the Amazon EC2 Command Lines Tools 
 License: http://aws.amazon.com/terms/
@@ -26,7 +26,6 @@ mkdir -p $RPM_BUILD_ROOT/%{prefix}/install/bin
 cp -R %{_projectdir}/lib/ $RPM_BUILD_ROOT%{prefix}/
 cp -R %{_projectdir}/bin/  $RPM_BUILD_ROOT%{prefix}/
 cp  %{_projectdir}/*.txt $RPM_BUILD_ROOT%{prefix}/
-cp  %{_projectdir}/README $RPM_BUILD_ROOT%{prefix}/
 cp  %{_projectdir}/install/bin/* $RPM_BUILD_ROOT%{prefix}/install/bin/
 
 %files
