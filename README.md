@@ -22,7 +22,7 @@ rpm-build
 1. Clone this repository 
 2. In the repository home directory, run
 
-rpmbuild --target=noarch --define "_projectdir \`pwd\`" -v -bb install/SPEC/ec2-api-tools.spec  
+rpmbuild --target=noarch --define "_projectdir $(pwd)" -v -bb install/SPEC/ec2-api-tools.spec  
 
 RPM will be built and will be located ~/rpmbuild/RPMS/noarch/ec2-api-tools-1.6.7-1.noarch.rpm
 
