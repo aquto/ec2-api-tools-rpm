@@ -25,6 +25,8 @@ mkdir -p $RPM_BUILD_ROOT/%{prefix}/install/bin
 
 unzip -d $RPM_BUILD_ROOT %{_projectdir}/package/ec2-api-tools.zip
 cp -Rp $RPM_BUILD_ROOT/%{name}-%{version}/* $RPM_BUILD_ROOT%{prefix}
+# remove DOS batch files.
+rm -f $RPM_BUILD_ROOT%{prefix}/bin/*.cmd
 cp  %{_projectdir}/install/bin/* $RPM_BUILD_ROOT%{prefix}/install/bin/
 
 
