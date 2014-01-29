@@ -1,9 +1,9 @@
 %define _unpackaged_files_terminate_build 0
 %define _target_os linux
-%define project_version 1.6.12.0.1
+%define project_version 1.6.11.0.1
 %define _binaries_in_noarch_packages_terminate_build   0
 Name: ec2-api-tools
-Version: 1.6.12.0
+Version: 1.6.12.2
 Release: 1
 Summary: Packaged version of the Amazon EC2 Command Lines Tools 
 License: http://aws.amazon.com/terms/
