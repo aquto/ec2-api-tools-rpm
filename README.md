@@ -7,7 +7,7 @@ If you wish to use `rpm`, or `yum` to install the Amazon
 API Tools on a Redhat/CentOS system, then you might
 be interested in this packaging.
 
-Current EC2 API CLI Version in this repo is 1.6.12.0.1.
+Current EC2 API CLI Version in this repo is 1.6.12.2 2013-10-15
 
 Also includes ELB CLI Version 1.0.17.
 
